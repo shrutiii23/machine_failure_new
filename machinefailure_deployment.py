@@ -11,7 +11,7 @@ import streamlit as st
 import joblib
 import pandas as pd
 
-model=joblib.load("dtc_model.pkl")
+model=joblib.load("dtc_model (1).pkl")
 
 st.title("wine type perdiction !")
 
