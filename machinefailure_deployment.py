@@ -25,7 +25,7 @@ VOC=st.number_input("VOC")
 RP=st.number_input("RP")
 IP=st.number_input("IP")
 Temperature=st.number_input("Temperature")
-fail=st.number_input("fail")
+
 
 input_data=pd.DataFrame({
     "footfall":[footfall],
@@ -36,8 +36,7 @@ input_data=pd.DataFrame({
     "VOC":[VOC],
     "RP":[RP],
     "IP":[IP],
-    "Temperature":[Temperature],
-    "fail":[fail],
+    "Temperature":[Temperature]
 
 
 })
