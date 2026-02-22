@@ -26,9 +26,9 @@ IP=st.number_input("IP")
 Temperature=st.number_input("Temperature")
 fail=st.number_input("fail")
 
-input_data=pd.dataframe({
+input_data=pd.DataFrame({
     "footfall":[footfall],
-    "volatile_acidity":[volatile_acidity],
+    "tempMode":[tempMode],
     "AQ":[AQ],
     "USS":[USS],
     "CS":[CS],
