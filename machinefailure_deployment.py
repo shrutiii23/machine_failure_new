@@ -13,7 +13,7 @@ import pandas as pd
 
 model=joblib.load("dtc_model (1).pkl")
 
-st.title("wine type perdiction !")
+st.title("machine failure prediction !")
 
 footfall =st.number_input("footfall")
 tempMode=st.number_input("tempMode")
