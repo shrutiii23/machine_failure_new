@@ -14,6 +14,8 @@ import pandas as pd
 model=joblib.load("dtc_model (1).pkl")
 
 st.title("machine failure prediction !")
+print("Model features:", model.feature_names_in_)
+print("Input features:", input_data.columns)
 
 footfall =st.number_input("footfall")
 tempMode=st.number_input("tempMode")
